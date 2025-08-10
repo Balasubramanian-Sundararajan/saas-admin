@@ -17,7 +17,7 @@ const App = () => {
 
 
   const handleAddProduct = (newProduct) => {
-    setProducts((prev) => [...prev, newProduct]);
+     setProducts(prev => [...prev, newProduct]);
   };
 
   return (
